@@ -1,0 +1,126 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+/*top naigation*/
+div.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.topnav .topnavleft {
+  float: left;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.topnav .topnavright {
+  float: right;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+/*min-with page to prevent resizing the page too small*/
+#viewport {
+  min-width: 980px;
+  min-height: 100%;
+  position: relative;
+}
+
+/*position logo*/
+.logo {
+  display: block;
+  margin: 200px auto 30px auto;
+}
+
+/*use parent container to center*/
+.center-container {
+   text-align: center;
+}
+
+/*textbox*/
+input[type=text] {
+  width: 385px;
+  font-size: 16px;
+  height: 45px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+}
+
+/*box around text box & icons*/
+.flex-container {
+  display: flex;
+  width: 484px;
+  color: #AFAFAF;
+  height: 46px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px #C4C4C4;
+  border-style: solid;
+  border-radius: 45px;
+}
+
+/*change size of icons in search box area*/
+span.material-icons {
+  font-size: 20px;
+}
+
+/*search buttons style*/
+.buttons {
+  border: none;
+  border-radius: 4px;
+  background-color: #EEEEEE;
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  color: #5F6368;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  margin: 0 4px 0 4px;
+}
+
+/*bottomnav as footer*/
+.bottomnav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  line-height: 40px;
+  border-top: 1px solid #e1e1e1;
+}
+
+.bottomnavleft {
+  float: left;
+  text-decoration: none;
+  color: #535353;
+  padding: 0 0 0 30px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.bottomnavright {
+  float: right;
+  text-decoration: none;
+  color: #535353;
+  padding: 0 30px 0 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.bottomnav a:hover {
+  text-decoration: underline;
+}

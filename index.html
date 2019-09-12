@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div id="viewport">
+      <!--Top navigation bar-->
+      <div class="topnav">
+        <a href="https://about.google.com/" class="topnavleft">About</a>
+        <a href="https://store.google.com/" class="topnavleft">Store</a>
+        <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl" class="topnavright">Images</a>
+        <a href="https://mail.google.com/" class="topnavright">Gmail</a>
+      </div> <!--/topnav div-->
+      <div class="content"><!--content of page-->
+        <!--body of page-->
+        <!--logo-->
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google Logo" class="logo" height="92" width="272">
+        <div class="center-container"> <!--search form div-->
+          <!--search box-->
+          <form action="/results.html" id="searchform" target="_blank" method="get">
+            <div class="flex-container">
+              <span class="material-icons">search</span>
+              <input type="text" name="search"/>
+              <span class="material-icons">mic</span>
+            </div> <!--/flex container div-->
+          </form>
+            <div> <!--search button div-->
+              <input type="submit" form="searchform" value="Google Search" class="buttons"/>
+              <input type="submit" form="searchform" value="I'm Feeling Lucky" class="buttons"
+              formaction="/surprise-results.html"/>
+            </div> <!--/search button div-->
+          </div> <!--/search form div-->
+      </div><!--/content of page-->
+      <footer class="bottomnav">
+        <a href="https://ads.google.com/home/" class="bottomnavleft">Advertising</a>
+        <a href="https://www.google.com/services/" class="bottomnavleft">Business</a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1" class="bottomnavleft">How Search works</a>
+        <a href="https://www.google.com/preferences?hl=en" class="bottomnavright">Settings</a>
+        <a href="https://policies.google.com/terms?hl=en&gl=us" class="bottomnavright">Terms</a>
+        <a href="https://policies.google.com/privacy?hl=en&gl=us" class="bottomnavright">Privacy</a>
+      </footer> <!--/bottomnav-->
+    </div> <!--/viewport div-->
+  </body>
+</html>
